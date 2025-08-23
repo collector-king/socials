@@ -201,7 +201,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 
-  const name = "JAQLIV";
+  const name = "Collector";
   let nameText = '';
   let nameIndex = 0;
   let isNameDeleting = false;
@@ -236,8 +236,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   const bioMessages = [
-    "Fu*k Guns.lol & Fakecrime.bio got banned too often, so I created my own.",
-    "\"Hello, World!\""
+    "I MADE THIS",
+    "kinda",
+    "i am a roblox developer",
+    "i own https://serveryy.vercel.app/",
+    "i code exp scripts",
+    "i dont EXP on games"
   ];
   let bioText = '';
   let bioIndex = 0;
