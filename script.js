@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 
-  const startMessage = "Click here to see the motion baby";
+  const startMessage = "FUCK OFF MY PROFILE AND KYS";
   let startTextContent = '';
   let startIndex = 0;
   let startCursorVisible = true;
