@@ -93,27 +93,7 @@
             backdrop-filter: blur(5px);
         }
 
-        .theme-button {
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            border: 2px solid rgba(255, 255, 255, 0.3);
-            background-color: rgba(0, 0, 0, 0.5);
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: all 0.3s;
-            font-size: 14px;
-            font-weight: bold;
-        }
 
-        .theme-button:hover {
-            transform: scale(1.1);
-            border-color: rgba(255, 255, 255, 0.8);
-        }
-
-        
         .volume-control {
             display: flex;
             align-items: center;
@@ -126,26 +106,6 @@
             cursor: pointer;
             display: flex;
             color: white;
-        }
-
-        .slider {
-            -webkit-appearance: none;
-            appearance: none;
-            width: 80px;
-            height: 5px;
-            border-radius: 5px;
-            background: rgba(255, 255, 255, 0.3);
-            outline: none;
-        }
-
-        .slider::-webkit-slider-thumb {
-            -webkit-appearance: none;
-            appearance: none;
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            background: white;
-            cursor: pointer;
         }
 
         
@@ -511,23 +471,6 @@
             z-index: 20;
         }
 
-        #results-theme {
-            background: rgba(0, 0, 0, 0.7);
-            color: white;
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            padding: 8px 15px;
-            border-radius: 20px;
-            cursor: pointer;
-            font-family: 'Courier New', monospace;
-            font-size: 14px;
-            backdrop-filter: blur(5px);
-            transition: all 0.3s;
-        }
-
-        #results-theme:hover {
-            background: rgba(0, 0, 0, 0.9);
-            border-color: rgba(255, 255, 255, 0.8);
-        }
 
         #results-hint {
             position: absolute;
@@ -553,35 +496,7 @@
             border-width: 0 10px 10px 10px;
             border-style: solid;
             border-color: transparent transparent rgba(0, 0, 0, 0.8) transparent;
-        }
-
-        
-        .home-theme #profile-block,
-        .home-theme #skills-block {
-            border-color: rgba(0, 195, 255, 0.5);
-        }
-
-        .hacker-theme #profile-block,
-        .hacker-theme #skills-block {
-            border-color: rgba(0, 255, 0, 0.5);
-        }
-
-        .rain-theme #profile-block,
-        .rain-theme #skills-block {
-            border-color: rgba(100, 149, 237, 0.5);
-        }
-
-        .anime-theme #profile-block,
-        .anime-theme #skills-block {
-            border-color: rgba(255, 0, 255, 0.5);
-        }
-
-        .car-theme #profile-block,
-        .car-theme #skills-block {
-            border-color: rgba(255, 165, 0, 0.5);
-        }
-
-        
+        } 
         .glitch {
             animation: glitch 0.2s ease-in-out;
         }
@@ -785,12 +700,6 @@
                 padding: 5px 8px;
             }
 
-            .theme-button {
-                width: 28px;
-                height: 28px;
-                font-size: 12px;
-            }
-
             
             .top-controls {
                 bottom: 70px;
@@ -989,13 +898,7 @@
         </div>
 
 
-        <div class="controls">
-            <div id="home-theme" class="theme-button">1</div>
-            <div id="hacker-theme" class="theme-button">2</div>
-            <div id="rain-theme" class="theme-button">3</div>
-            <div id="anime-theme" class="theme-button">4</div>
-            <div id="car-theme" class="theme-button">5</div>
-        </div>
+       
 
 
         <div class="top-controls">
