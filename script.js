@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
       startTextContent = startMessage.slice(0, startIndex + 1);
       startIndex++;
     }
-    startText.textContent = startTextContent + (startCursorVisible ? '|' : ' ');
+    startText.textContent = startTextContent + (startCursorVisible ? 'hi' : 'ur so unlocky');
     setTimeout(typeWriterStart, 100);
   }
 
@@ -363,22 +363,22 @@ document.addEventListener('DOMContentLoaded', () => {
     let primaryColor;
     switch (themeClass) {
       case 'home-theme':
-        primaryColor = '#00CED1';
+        primaryColor = '#ffffff';
         break;
       case 'hacker-theme':
-        primaryColor = '#22C55E';
+        primaryColor = '#ffffff';
         break;
       case 'rain-theme':
-        primaryColor = '#1E3A8A';
+        primaryColor = '#ffffff';
         break;
       case 'anime-theme':
-        primaryColor = '#DC2626';
+        primaryColor = '#ffffff';
         break;
       case 'car-theme':
-        primaryColor = '#EAB308';
+        primaryColor = '#ffffff';
         break;
       default:
-        primaryColor = '#00CED1';
+        primaryColor = '#ffffff';
     }
     document.documentElement.style.setProperty('--primary-color', primaryColor);
 
